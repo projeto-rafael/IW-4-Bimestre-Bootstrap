@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark bg-gradient" style="background-repeat: no-repeat;">
+
+    <!--Menu-->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="img/logo.png" width="50px" height="50px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Voltar para a página Inicial!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br>
+    </nav>
+    <br><br><br>
+
+    <!--Formulário-->
+
+
+    <form class="row g-3 needs-validation" novalidate>
+      <h2 class="m-5">Formulário de Contato</h2>
+      <div class="col-md-4 m-5">
+        <label for="validationCustom01" class="form-label" style="color: #fff;">Primeiro nome</label>
+        <input type="text" class="form-control" placeholder="Digite seu Nome" id="validationCustom01" required>
+        <div class="valid-feedback">
+          Ok!
+        </div>
+      </div>
+      <div class="col-md-4 m-5">
+        <label for="validationCustom02" class="form-label" style="color: #fff;">Sobrenome</label>
+        <input type="text" class="form-control" placeholder="Digite seu sobrenome" id="validationCustom02" required>
+        <div class="valid-feedback">
+          Ok!
+        </div>
+      </div>
+      <div class="col-md-4 m-5">
+        <label for="validationCustom03" class="form-label" style="color: #fff;">Seu E-mail</label>
+        <input type="text" class="form-control" placeholder="Digite seu e-mail" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Por favor escolha um e-mail válido.
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4 m-5">
+        <label for="validationCustom04" class="form-label" style="color: #fff;">Cidade</label>
+        <input type="text" class="form-control"  placeholder="Digite a cidade em que você mora" id="validationCustom04" required>
+        <div class="invalid-feedback">
+          Por favor digite um cidade válida.
+        </div>
+      </div>
+      <div class="col-md-8 m-5">
+        <label for="exampleFormControlTextarea1" class="form-label" style="color: #fff;">Digite seu texto: </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Digite o texto aqui" rows="3"></textarea>
+      </div>
+      <div class="col-12 m-5">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck" style="color: #fff;">
+            Enviar uma cópia para o seu e-mail?
+          </label>
+        </div>
+      </div>
+      <div class="col-12 m-5">
+        <button class="btn btn-light" type="submit">Enviar</button>
+      </div>
+    </form>
+
+    <!--Rodapé-->
+
+    <footer>
+      <section class="bg-light">
+        <br><br>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-4 align-items-start">
+              <h3 style="color: #000;">Voltar</h3>
+              <a href="index.html" class="btn button-dark btn-dark button text">Página Inicial</a>
+              <br><br><br>
+            </div>
+            <div class="col-md-3 col-sm-4 align-items-center">
+              <h4 class="text-center"style="color: #000;">E-mail para contato: rafaellima.ol49@gmail.com.br</h4>
+            </div>
+            <div class="col-md-3 col-sm-4 align-items-center"></div>
+            <a href="#" class="btn button-dark btn-dark button text">Inicio</a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

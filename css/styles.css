@@ -1,0 +1,75 @@
+html, body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#header{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000;
+    border-bottom: solid 5px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 5px turquoise;
+    color: turquoise;
+}
+
+.botton{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    align-items: center;
+}
+
+.botton-primary{
+    border-color: turquoise;
+}
+
+.botton-primary:hover{
+    background-color: blue;
+}
+
+#sobresite{
+    background: url(../img/fundo.png);
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+}
+
+.text-center{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.center{
+    margin: auto;
+    display: block;
+}
+
+.center-icon{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+#trabalhos .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
